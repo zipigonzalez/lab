@@ -1,14 +1,966 @@
 [
-  { "id": 1, "pregunta": "¿Qué selección ganó el Mundial de Qatar 2022?", "opciones": ["Francia", "Argentina", "Croacia", "Brasil"], "correcta": 1, "dato": "Argentina le ganó la final a Francia por penales, después de un 3 a 3." },
-  { "id": 2, "pregunta": "¿Qué país organizó y ganó el primer Mundial, en 1930?", "opciones": ["Italia", "Brasil", "Uruguay", "Argentina"], "correcta": 2, "dato": "La final fue en Montevideo: Uruguay 4, Argentina 2." },
-  { "id": 3, "pregunta": "¿Quién hizo el gol conocido como «la Mano de Dios»?", "opciones": ["Diego Maradona", "Pelé", "Mario Kempes", "Gabriel Batistuta"], "correcta": 0, "dato": "Fue contra Inglaterra, en los cuartos de final de México 1986." },
-  { "id": 4, "pregunta": "¿Cuántos jugadores tiene cada equipo en la cancha al empezar un partido?", "opciones": ["9", "10", "11", "12"], "correcta": 2, "dato": "Diez jugadores de campo y un arquero." },
-  { "id": 5, "pregunta": "¿Qué club ganó más veces la Champions League?", "opciones": ["Barcelona", "Milan", "Bayern Múnich", "Real Madrid"], "correcta": 3, "dato": "El Real Madrid la ganó más del doble de veces que cualquier otro club." },
-  { "id": 6, "pregunta": "¿Cuánto dura un partido reglamentario, sin contar el tiempo agregado?", "opciones": ["80 minutos", "90 minutos", "100 minutos", "120 minutos"], "correcta": 1, "dato": "Dos tiempos de 45 minutos. Los 120 son con alargue." },
-  { "id": 7, "pregunta": "¿Qué país organizó el Mundial 2014?", "opciones": ["Sudáfrica", "Alemania", "Brasil", "Rusia"], "correcta": 2, "dato": "Ganó Alemania, que le ganó la final a Argentina 1 a 0 en el Maracaná." },
-  { "id": 8, "pregunta": "¿Cómo se lo conoce popularmente al estadio de Boca Juniors?", "opciones": ["El Monumental", "La Bombonera", "El Cilindro", "El Gigante"], "correcta": 1, "dato": "Su nombre oficial es Estadio Alberto J. Armando." },
-  { "id": 9, "pregunta": "¿Qué jugador ganó más Balones de Oro en la historia?", "opciones": ["Cristiano Ronaldo", "Johan Cruyff", "Lionel Messi", "Michel Platini"], "correcta": 2, "dato": "Messi ganó ocho; Cristiano Ronaldo, que lo sigue, cinco." },
-  { "id": 10, "pregunta": "¿Qué significa que el árbitro muestre una tarjeta roja?", "opciones": ["Una advertencia", "Un penal", "La expulsión del jugador", "El final del partido"], "correcta": 2, "dato": "El jugador expulsado no puede ser reemplazado: su equipo queda con uno menos." },
-  { "id": 11, "pregunta": "¿Qué tres países organizaron juntos el Mundial 2026?", "opciones": ["España, Portugal y Marruecos", "Estados Unidos, México y Canadá", "Argentina, Uruguay y Paraguay", "Japón, Corea del Sur y China"], "correcta": 1, "dato": "Fue el primer Mundial con 48 selecciones." },
-  { "id": 12, "pregunta": "¿Con qué parte del cuerpo NO puede tocar la pelota un jugador de campo?", "opciones": ["La cabeza", "El pecho", "Las manos y los brazos", "Los muslos"], "correcta": 2, "dato": "Solo el arquero puede usar las manos, y únicamente dentro de su área." }
+  {
+    "id": 1930,
+    "anio": 1930,
+    "fecha": "1930-07-30",
+    "sede": "Montevideo, Uruguay",
+    "local": "Uruguay",
+    "visitante": "Argentina",
+    "golesLocal": 4,
+    "golesVisitante": 2,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Uruguay",
+    "goles": [
+      {
+        "minuto": 12,
+        "jugador": "Pablo Dorado",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 20,
+        "jugador": "Carlos Peucelle",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 37,
+        "jugador": "Guillermo Stábile",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 57,
+        "jugador": "Pedro Cea",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 68,
+        "jugador": "Santos Iriarte",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 89,
+        "jugador": "Héctor Castro",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1934,
+    "anio": 1934,
+    "fecha": "1934-06-10",
+    "sede": "Roma, Italia",
+    "local": "Italia",
+    "visitante": "Checoslovaquia",
+    "golesLocal": 2,
+    "golesVisitante": 1,
+    "alargue": true,
+    "penales": null,
+    "campeon": "Italia",
+    "goles": [
+      {
+        "minuto": 71,
+        "jugador": "Antonín Puč",
+        "equipo": "Checoslovaquia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 81,
+        "jugador": "Raimundo Orsi",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 95,
+        "jugador": "Angelo Schiavio",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1938,
+    "anio": 1938,
+    "fecha": "1938-06-19",
+    "sede": "Colombes, Francia",
+    "local": "Hungría",
+    "visitante": "Italia",
+    "golesLocal": 2,
+    "golesVisitante": 4,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Italia",
+    "goles": [
+      {
+        "minuto": 6,
+        "jugador": "Gino Colaussi",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 8,
+        "jugador": "Pál Titkos",
+        "equipo": "Hungría",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 16,
+        "jugador": "Silvio Piola",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 35,
+        "jugador": "Gino Colaussi",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 70,
+        "jugador": "György Sárosi",
+        "equipo": "Hungría",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 82,
+        "jugador": "Silvio Piola",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1950,
+    "anio": 1950,
+    "fecha": "1950-07-16",
+    "sede": "Río de Janeiro, Brasil",
+    "local": "Uruguay",
+    "visitante": "Brasil",
+    "golesLocal": 2,
+    "golesVisitante": 1,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Uruguay",
+    "goles": [
+      {
+        "minuto": 47,
+        "jugador": "Friaça",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 66,
+        "jugador": "Juan Alberto Schiaffino",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 79,
+        "jugador": "Alcides Ghiggia",
+        "equipo": "Uruguay",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": "No hubo final: este partido del cuadrangular final definió al campeón (el «Maracanazo»)."
+  },
+  {
+    "id": 1954,
+    "anio": 1954,
+    "fecha": "1954-07-04",
+    "sede": "Berna, Suiza",
+    "local": "Hungría",
+    "visitante": "Alemania Federal",
+    "golesLocal": 2,
+    "golesVisitante": 3,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Alemania Federal",
+    "goles": [
+      {
+        "minuto": 6,
+        "jugador": "Ferenc Puskás",
+        "equipo": "Hungría",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 8,
+        "jugador": "Zoltán Czibor",
+        "equipo": "Hungría",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 10,
+        "jugador": "Max Morlock",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 18,
+        "jugador": "Helmut Rahn",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 84,
+        "jugador": "Helmut Rahn",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1958,
+    "anio": 1958,
+    "fecha": "1958-06-29",
+    "sede": "Solna, Suecia",
+    "local": "Suecia",
+    "visitante": "Brasil",
+    "golesLocal": 2,
+    "golesVisitante": 5,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Brasil",
+    "goles": [
+      {
+        "minuto": 4,
+        "jugador": "Nils Liedholm",
+        "equipo": "Suecia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 9,
+        "jugador": "Vavá",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 32,
+        "jugador": "Vavá",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 55,
+        "jugador": "Pelé",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 68,
+        "jugador": "Mário Zagallo",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 80,
+        "jugador": "Agne Simonsson",
+        "equipo": "Suecia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 90,
+        "jugador": "Pelé",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1962,
+    "anio": 1962,
+    "fecha": "1962-06-17",
+    "sede": "Santiago, Chile",
+    "local": "Brasil",
+    "visitante": "Checoslovaquia",
+    "golesLocal": 3,
+    "golesVisitante": 1,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Brasil",
+    "goles": [
+      {
+        "minuto": 15,
+        "jugador": "Josef Masopust",
+        "equipo": "Checoslovaquia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 17,
+        "jugador": "Amarildo Tavares da Silveira",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 69,
+        "jugador": "Zito",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 78,
+        "jugador": "Vavá",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1966,
+    "anio": 1966,
+    "fecha": "1966-07-30",
+    "sede": "Londres, Inglaterra",
+    "local": "Inglaterra",
+    "visitante": "Alemania Federal",
+    "golesLocal": 4,
+    "golesVisitante": 2,
+    "alargue": true,
+    "penales": null,
+    "campeon": "Inglaterra",
+    "goles": [
+      {
+        "minuto": 12,
+        "jugador": "Helmut Haller",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 18,
+        "jugador": "Geoff Hurst",
+        "equipo": "Inglaterra",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 78,
+        "jugador": "Martin Peters",
+        "equipo": "Inglaterra",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 89,
+        "jugador": "Wolfgang Weber",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 101,
+        "jugador": "Geoff Hurst",
+        "equipo": "Inglaterra",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 120,
+        "jugador": "Geoff Hurst",
+        "equipo": "Inglaterra",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1970,
+    "anio": 1970,
+    "fecha": "1970-06-21",
+    "sede": "Ciudad de México, México",
+    "local": "Brasil",
+    "visitante": "Italia",
+    "golesLocal": 4,
+    "golesVisitante": 1,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Brasil",
+    "goles": [
+      {
+        "minuto": 18,
+        "jugador": "Pelé",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 37,
+        "jugador": "Roberto Boninsegna",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 65,
+        "jugador": "Gérson",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 71,
+        "jugador": "Jairzinho",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 86,
+        "jugador": "Carlos Alberto Torres",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1974,
+    "anio": 1974,
+    "fecha": "1974-07-07",
+    "sede": "Múnich, Alemania Federal",
+    "local": "Países Bajos",
+    "visitante": "Alemania Federal",
+    "golesLocal": 1,
+    "golesVisitante": 2,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Alemania Federal",
+    "goles": [
+      {
+        "minuto": 2,
+        "jugador": "Johan Neeskens",
+        "equipo": "Países Bajos",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 25,
+        "jugador": "Paul Breitner",
+        "equipo": "Alemania Federal",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 43,
+        "jugador": "Gerd Müller",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1978,
+    "anio": 1978,
+    "fecha": "1978-06-25",
+    "sede": "Buenos Aires, Argentina",
+    "local": "Países Bajos",
+    "visitante": "Argentina",
+    "golesLocal": 1,
+    "golesVisitante": 3,
+    "alargue": true,
+    "penales": null,
+    "campeon": "Argentina",
+    "goles": [
+      {
+        "minuto": 38,
+        "jugador": "Mario Kempes",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 82,
+        "jugador": "Dick Nanninga",
+        "equipo": "Países Bajos",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 105,
+        "jugador": "Mario Kempes",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 115,
+        "jugador": "Daniel Bertoni",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1982,
+    "anio": 1982,
+    "fecha": "1982-07-11",
+    "sede": "Madrid, España",
+    "local": "Italia",
+    "visitante": "Alemania Federal",
+    "golesLocal": 3,
+    "golesVisitante": 1,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Italia",
+    "goles": [
+      {
+        "minuto": 57,
+        "jugador": "Paolo Rossi",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 69,
+        "jugador": "Marco Tardelli",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 81,
+        "jugador": "Alessandro Altobelli",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 83,
+        "jugador": "Paul Breitner",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1986,
+    "anio": 1986,
+    "fecha": "1986-06-29",
+    "sede": "Ciudad de México, México",
+    "local": "Argentina",
+    "visitante": "Alemania Federal",
+    "golesLocal": 3,
+    "golesVisitante": 2,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Argentina",
+    "goles": [
+      {
+        "minuto": 23,
+        "jugador": "José Luis Brown",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 55,
+        "jugador": "Jorge Valdano",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 74,
+        "jugador": "Karl-Heinz Rummenigge",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 80,
+        "jugador": "Rudi Völler",
+        "equipo": "Alemania Federal",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 83,
+        "jugador": "Jorge Burruchaga",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1990,
+    "anio": 1990,
+    "fecha": "1990-07-08",
+    "sede": "Roma, Italia",
+    "local": "Alemania Federal",
+    "visitante": "Argentina",
+    "golesLocal": 1,
+    "golesVisitante": 0,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Alemania Federal",
+    "goles": [
+      {
+        "minuto": 85,
+        "jugador": "Andreas Brehme",
+        "equipo": "Alemania Federal",
+        "penal": true,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 1994,
+    "anio": 1994,
+    "fecha": "1994-07-17",
+    "sede": "Pasadena, Estados Unidos",
+    "local": "Brasil",
+    "visitante": "Italia",
+    "golesLocal": 0,
+    "golesVisitante": 0,
+    "alargue": true,
+    "penales": {
+      "local": 3,
+      "visitante": 2
+    },
+    "campeon": "Brasil",
+    "goles": [],
+    "nota": null
+  },
+  {
+    "id": 1998,
+    "anio": 1998,
+    "fecha": "1998-07-12",
+    "sede": "Saint-Denis, Francia",
+    "local": "Brasil",
+    "visitante": "Francia",
+    "golesLocal": 0,
+    "golesVisitante": 3,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Francia",
+    "goles": [
+      {
+        "minuto": 27,
+        "jugador": "Zinedine Zidane",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 45,
+        "jugador": "Zinedine Zidane",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 90,
+        "jugador": "Emmanuel Petit",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2002,
+    "anio": 2002,
+    "fecha": "2002-06-30",
+    "sede": "Yokohama, Japón",
+    "local": "Alemania",
+    "visitante": "Brasil",
+    "golesLocal": 0,
+    "golesVisitante": 2,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Brasil",
+    "goles": [
+      {
+        "minuto": 67,
+        "jugador": "Ronaldo",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 79,
+        "jugador": "Ronaldo",
+        "equipo": "Brasil",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2006,
+    "anio": 2006,
+    "fecha": "2006-07-09",
+    "sede": "Berlín, Alemania",
+    "local": "Italia",
+    "visitante": "Francia",
+    "golesLocal": 1,
+    "golesVisitante": 1,
+    "alargue": true,
+    "penales": {
+      "local": 5,
+      "visitante": 3
+    },
+    "campeon": "Italia",
+    "goles": [
+      {
+        "minuto": 7,
+        "jugador": "Zinedine Zidane",
+        "equipo": "Francia",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 19,
+        "jugador": "Marco Materazzi",
+        "equipo": "Italia",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2010,
+    "anio": 2010,
+    "fecha": "2010-07-11",
+    "sede": "Johannesburgo, Sudáfrica",
+    "local": "Países Bajos",
+    "visitante": "España",
+    "golesLocal": 0,
+    "golesVisitante": 1,
+    "alargue": true,
+    "penales": null,
+    "campeon": "España",
+    "goles": [
+      {
+        "minuto": 116,
+        "jugador": "Andrés Iniesta",
+        "equipo": "España",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2014,
+    "anio": 2014,
+    "fecha": "2014-07-13",
+    "sede": "Río de Janeiro, Brasil",
+    "local": "Alemania",
+    "visitante": "Argentina",
+    "golesLocal": 1,
+    "golesVisitante": 0,
+    "alargue": true,
+    "penales": null,
+    "campeon": "Alemania",
+    "goles": [
+      {
+        "minuto": 113,
+        "jugador": "Mario Götze",
+        "equipo": "Alemania",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2018,
+    "anio": 2018,
+    "fecha": "2018-07-15",
+    "sede": "Moscú, Rusia",
+    "local": "Francia",
+    "visitante": "Croacia",
+    "golesLocal": 4,
+    "golesVisitante": 2,
+    "alargue": false,
+    "penales": null,
+    "campeon": "Francia",
+    "goles": [
+      {
+        "minuto": 18,
+        "jugador": "Mario Mandžukić",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": true
+      },
+      {
+        "minuto": 28,
+        "jugador": "Ivan Perišić",
+        "equipo": "Croacia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 38,
+        "jugador": "Antoine Griezmann",
+        "equipo": "Francia",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 59,
+        "jugador": "Paul Pogba",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 65,
+        "jugador": "Kylian Mbappé",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 69,
+        "jugador": "Mario Mandžukić",
+        "equipo": "Croacia",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2022,
+    "anio": 2022,
+    "fecha": "2022-12-18",
+    "sede": "Lusail, Catar",
+    "local": "Argentina",
+    "visitante": "Francia",
+    "golesLocal": 3,
+    "golesVisitante": 3,
+    "alargue": true,
+    "penales": {
+      "local": 4,
+      "visitante": 2
+    },
+    "campeon": "Argentina",
+    "goles": [
+      {
+        "minuto": 23,
+        "jugador": "Lionel Messi",
+        "equipo": "Argentina",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 36,
+        "jugador": "Ángel Di María",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 80,
+        "jugador": "Kylian Mbappé",
+        "equipo": "Francia",
+        "penal": true,
+        "enContra": false
+      },
+      {
+        "minuto": 81,
+        "jugador": "Kylian Mbappé",
+        "equipo": "Francia",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 108,
+        "jugador": "Lionel Messi",
+        "equipo": "Argentina",
+        "penal": false,
+        "enContra": false
+      },
+      {
+        "minuto": 118,
+        "jugador": "Kylian Mbappé",
+        "equipo": "Francia",
+        "penal": true,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  },
+  {
+    "id": 2026,
+    "anio": 2026,
+    "fecha": "2026-07-19",
+    "sede": "East Rutherford, Estados Unidos",
+    "local": "España",
+    "visitante": "Argentina",
+    "golesLocal": 1,
+    "golesVisitante": 0,
+    "alargue": true,
+    "penales": null,
+    "campeon": "España",
+    "goles": [
+      {
+        "minuto": 106,
+        "jugador": "Ferran Torres",
+        "equipo": "España",
+        "penal": false,
+        "enContra": false
+      }
+    ],
+    "nota": null
+  }
 ]
