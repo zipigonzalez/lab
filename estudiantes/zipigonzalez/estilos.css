@@ -59,3 +59,27 @@ button.incorrecta { background: #fde0e0; border-color: #d33; }
 
 #mensaje { min-height: 1.5em; margin: 16px 0 0; }
 #resultado { font-size: 1.15rem; }
+
+/* Pestañas */
+.pestanas { display: flex; gap: 8px; justify-content: center; margin: 8px 0 16px; }
+.pestana { text-align: center; padding: 8px 18px; border-radius: 999px; }
+.pestana.activa { background: #0b6e3a; border-color: #0b6e3a; color: #fff; }
+
+/* Vista de finales */
+.intro { margin-top: 0; color: #555; text-align: center; }
+label { display: block; font-weight: bold; margin-bottom: 4px; }
+select { font: inherit; width: 100%; padding: 10px; border-radius: 10px; border: 2px solid #ccc; }
+#titulos { font-size: 0.95rem; color: #333; line-height: 1.5; }
+
+.tarjeta { border: 2px solid #e3e3e3; border-radius: 12px; padding: 12px 14px; margin-bottom: 12px; }
+.cabecera { margin: 0; font-size: 0.85rem; color: #666; }
+.marcador { margin: 6px 0 2px; font-size: 1.2rem; font-weight: bold; }
+.ganador { color: #0b6e3a; }
+.extras { margin: 0 0 8px; font-size: 0.9rem; color: #555; }
+.goles { list-style: none; padding: 0; margin: 0; }
+.goles li { padding: 4px 0; border-top: 1px dashed #e3e3e3; font-size: 0.95rem; }
+.minuto { display: inline-block; min-width: 3.2em; font-weight: bold; color: #0b6e3a; }
+.nota { margin: 8px 0 0; font-size: 0.85rem; font-style: italic; color: #666; }
+
+footer { margin-top: 24px; font-size: 0.8rem; color: #777; text-align: center; }
+footer a { color: #0b6e3a; }

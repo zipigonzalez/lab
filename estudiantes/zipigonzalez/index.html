@@ -10,21 +10,42 @@
   <main>
     <header>
       <h1>⚽ Quiz de fútbol</h1>
-      <p id="progreso">Cargando preguntas…</p>
+      <nav class="pestanas">
+        <button id="tab-jugar" class="pestana activa">Jugar</button>
+        <button id="tab-partidos" class="pestana">Finales</button>
+      </nav>
     </header>
 
-    <section id="juego" hidden>
-      <h2 id="pregunta"></h2>
-      <div id="opciones"></div>
-      <p id="mensaje" aria-live="polite"></p>
-      <button id="siguiente" class="principal" hidden>Siguiente</button>
-    </section>
+    <div id="vista-jugar">
+      <p id="progreso">Cargando preguntas…</p>
 
-    <section id="final" hidden>
-      <h2>¡Terminaste!</h2>
-      <p id="resultado"></p>
-      <button id="reiniciar" class="principal">Jugar de nuevo</button>
-    </section>
+      <section id="juego" hidden>
+        <h2 id="pregunta"></h2>
+        <div id="opciones"></div>
+        <p id="mensaje" aria-live="polite"></p>
+        <button id="siguiente" class="principal" hidden>Siguiente</button>
+      </section>
+
+      <section id="final" hidden>
+        <h2>¡Terminaste!</h2>
+        <p id="resultado"></p>
+        <button id="reiniciar" class="principal">Jugar de nuevo</button>
+      </section>
+    </div>
+
+    <div id="vista-partidos" hidden>
+      <p class="intro">Todas las finales de los Mundiales, con cada gol y su minuto.</p>
+      <label for="filtro">Filtrar por selección</label>
+      <select id="filtro"><option value="">Todas</option></select>
+      <p id="titulos"></p>
+      <div id="lista-partidos"></div>
+    </div>
+
+    <footer>
+      Datos de las finales: <a href="https://github.com/openfootball/worldcup.json" target="_blank" rel="noopener">openfootball</a>
+      y <a href="https://github.com/martj42/international_results" target="_blank" rel="noopener">international_results</a>
+      (dominio público, CC0).
+    </footer>
   </main>
 
   <script src="quiz.js"></script>
